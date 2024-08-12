@@ -1,9 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
-    background-color: aquamarine;
+    background-color: rgb(255, 127, 242);
 }
 h1{
     color:rgb(233, 17, 32);
 }
 p{
     color:rgb(11, 64, 110);
+}
+header{
+    background-color: rgb(227, 179, 215);
+}
+nav{
+    float:left;
+    width: 30%;
+    padding: 20 px;
+    background-color: bisque;
+}
+
+article{
+    float: left;
+    background-color: rgb(145, 145, 221);
+    width: 70%;
+    padding: 20px;
+}
+
+section::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: beige;
 }
