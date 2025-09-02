@@ -81,16 +81,19 @@ footer{
   }
 
   .c1{
-    background-color: blue;
+    background-color:cornflowerblue;
     flex: 1;
+    padding: 10px;
   }
 
   .c2{
     background-color: azure;
     flex: 2;
+    padding: 10px;
   }
 
   .c3{
     background-color: rgb(232, 17, 64);
     flex: 1;
+    padding: 10px;
   }
